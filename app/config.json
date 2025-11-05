@@ -1,0 +1,16 @@
+{
+  "x_pixels": 3844,
+  "y_pixels": 2440,
+  "x_base_speed": 3,
+  "y_base_speed": 3,
+  "model_path": "models/yolo12n.pt",
+  "hotkey": "x1",
+  "x_target_offset": 0.5,
+  "y_target_offset": 0.1,
+  "confidence": 0.75,
+  "classes": [
+    0
+  ],
+  "enable_int8": false,
+  "theme": "dark"
+}

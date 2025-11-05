@@ -1,0 +1,9 @@
+*/uv.lock
+*/.venv
+/*.gitignore*/
+/*.git*/
+/*.idea*/
+/*.pyc*/
+/*.pyo*/
+/*.pyd*/
+/*.log*/
