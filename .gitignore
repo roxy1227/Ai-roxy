@@ -1,9 +1,19 @@
-*/uv.lock
-*/.venv
-/*.gitignore*/
-/*.git*/
-/*.idea*/
-/*.pyc*/
-/*.pyo*/
-/*.pyd*/
-/*.log*/
+# 虚拟环境和依赖锁文件
+uv.lock
+.venv/
+
+# Git 相关
+.gitignore
+.git/
+
+# IDE 配置
+.idea/
+
+# Python 字节码和缓存
+*.pyc
+*.pyo
+*.pyd
+__pycache__/
+
+# 日志文件
+*.log

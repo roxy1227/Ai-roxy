@@ -3,34 +3,22 @@ name = "fb"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
+requires-python = ">=3.12"
 dependencies = [
     "fastapi",
     "mss",
     "numpy",
     "opencv-python",
-    "pydantic",
     "pywin32",
     "uvicorn",
     "pynput",
     "pywebview",
-    "ultralytics"
+    "ultralytics",
+    "onnx",
+    "onnxslim",
+    "onnxruntime-gpu",
+    "tensorrt"
 ]
-
-[tool.ruff]
-line-length = 100
-target-version = "py310"
-
-[tool.ruff.lint]
-select = [
-    "E","F","I","UP","B"
-]
-ignore = []
-
-[tool.ruff.format]
-quote-style = "double"
-indent-style = "space"
-line-ending = "lf"
 
 [tool.uv.sources]
 tensorrt = { path = "dep/tensorrt-10.0.0b6-py2.py3-none-win_amd64.whl" }
