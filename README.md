@@ -2,9 +2,11 @@
 
 可逐步运行bat脚本来启动
 
-如果未安装uv，则运行一下`install_uv.bat`，随后运行`init.bat`来安装依赖以及cuda的torch
+如果未安装uv，则运行一下`install_uv.bat`，随后运行`init.bat`来安装依赖
 
 运行`run.bat`即可启动程序
+
+如果使用gpu则再次运行一下`init_gpu.bat`
 
 确保电脑中有最新版本的cuda Toolkit和cuDnn以及tensorRT（如果要启用tensorRT的话）
 
