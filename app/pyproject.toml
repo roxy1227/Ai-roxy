@@ -13,11 +13,7 @@ dependencies = [
     "uvicorn",
     "pynput",
     "pywebview",
-    "ultralytics",
-    "onnx",
-    "onnxslim",
-    "onnxruntime-gpu",
-    "tensorrt"
+    "ultralytics"
 ]
 
 [tool.uv.sources]
